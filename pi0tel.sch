@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:pi0tel-cache
-LIBS:RPi_Zero_pHat_Template-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -49,11 +48,11 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2800 2850 50  000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R 10k1
+L Device:R R2
 U 1 1 5EFD4A91
 P 3200 2600
-F 0 "10k1" H 3270 2646 50  0000 L CNN
-F 1 "R" H 3270 2555 50  0000 L CNN
+F 0 "R2" H 3270 2646 50  0000 L CNN
+F 1 "10k" H 3270 2555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3130 2600 50  0001 C CNN
 F 3 "~" H 3200 2600 50  0001 C CNN
 	1    3200 2600
@@ -185,15 +184,9 @@ $EndComp
 Wire Wire Line
 	1350 4300 1650 4300
 Wire Wire Line
-	1350 4300 1350 4900
-Wire Wire Line
-	1350 4900 1650 4900
-Wire Wire Line
 	2750 4900 2750 4700
-Connection ~ 1350 4300
 Wire Wire Line
 	1650 4750 1650 4900
-Connection ~ 1650 4900
 Wire Wire Line
 	1650 4900 2250 4900
 Connection ~ 2750 4900
@@ -237,17 +230,15 @@ Wire Wire Line
 	3250 4300 4850 4300
 Wire Wire Line
 	4850 4300 4850 4500
-Text Label 1350 4000 0    50   ~ 0
+Text Label 1350 4300 0    50   ~ 0
 MinitelVcc
-Wire Wire Line
-	1350 4000 1350 4300
 $Comp
 L Connector:DIN-5_180degree J1
 U 1 1 5EFA5FAE
 P 5500 2800
 F 0 "J1" H 5500 2526 50  0000 C CNN
 F 1 "DIN-5_180degree" H 5500 2435 50  0000 C CNN
-F 2 "footprints:din_5_econet_pcb_mount" H 5500 2800 50  0001 C CNN
+F 2 "myelin-kicad:din_5_econet_pcb_mount" H 5500 2800 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 5500 2800 50  0001 C CNN
 	1    5500 2800
 	1    0    0    -1  

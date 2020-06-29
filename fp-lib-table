@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints)(options "")(descr ""))
+  (lib (name kicad-libraries)(type KiCad)(uri ${KIPRJMOD}/footprints/kicad-libraries)(options "")(descr ""))
+  (lib (name myelin-kicad)(type KiCad)(uri ${KIPRJMOD}/footprints/myelin-kicad.pretty)(options "")(descr ""))
 )

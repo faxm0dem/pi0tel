@@ -1,0 +1,8 @@
+[submodule "footprints/myelin-kicad.pretty"]
+	path = footprints/myelin-kicad.pretty
+	url = https://github.com/myelin/myelin-kicad.pretty.git
+	branch = master
+[submodule "footprints/kicad-libraries"]
+	path = footprints/kicad-libraries
+	url = https://github.com/Tinkerforge/kicad-libraries
+	branch = master
