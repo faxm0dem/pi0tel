@@ -14,6 +14,11 @@
   - should both have short leads to lm2596
   - should both have low ESR (e.g. high V rating, Nichicon PL, 1.25*Vin = 10V)
   - Ripple current rating 50% of DC load (500mA in our case)
+* Cin 270uF or 330uF
+* Cout 470/25 Pana or 560/16 Nichi
+* Diode
+  - current rating = 1.3*load = 800mA
+  - reverse V rating = 1.25*Vinmax = 10V
 * Heat pad should at least be 0.4"²
 * L choice see page 20 of Datasheet
   - L21/L22
@@ -22,3 +27,7 @@
 |-|--|-|------|------|-----|-----|-----|-----|---------|
 |L21|68|0.99|67144070|67144450|RL-5471-5|RL1500-68|PE-53821|PE-53821-S|DO3316-683|
 |L22|47|1.17|67144080|67144460|RL-5471-6|—|PE-53822|PE-53822-S|DO3316-47|
+
+* If we want low output ripple we can add post ripple filter 1uH-5uH
+  with low DC Resistance and low ESR cap
+
