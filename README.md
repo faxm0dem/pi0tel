@@ -1,3 +1,14 @@
+# 3615 pi0
+
+This uHat is designed to plug on top of a pi0 or pi0-w.
+It's designed to plug to the DIN-5 at the back of a Minitel-2.
+The pi0 will be powered by the Minitel through the Buck converter on
+the hat. TX and RX will be level-shifted to the right level on the pi's UART.
+
+The aim is to plug the resulting dongle into a Minitel, and get instant linux.
+
+3615 pi0 (or shall we say, 31415 Minitel).
+
 # Reference
 
 * https://niteshbharadwaj.github.io/posts/raspi_from_battery.html
