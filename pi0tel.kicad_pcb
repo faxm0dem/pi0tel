@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 20)
     (tracks 115)
     (zones 0)
     (modules 14)
@@ -852,6 +852,18 @@
     )
   )
 
+  (gr_text r1 (at 67.6 51.9) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 2021 (at 50.4 42.8) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text faxmodem (at 53.2 40.2) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text pi0tel (at 60.7 51.8) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_arc (start 15.5 27.5) (end 12.5 27.5) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5B55F169))
   (gr_line (start 15.5 24.5) (end 76.5 24.5) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5B55F01C))
   (gr_arc (start 76.5 27.5) (end 76.5 24.5) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5B55EED3))
