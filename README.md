@@ -1,5 +1,7 @@
 # 3615 pi0
 
+![3D Render of the pi0tel pcb](pi0tel-3d.png)
+
 This uHat is designed to plug on top of a pi0 or pi0-w.
 It's designed to plug to the DIN-5 at the back of a Minitel-2.
 The pi0 will be powered by the Minitel through the Buck converter on
